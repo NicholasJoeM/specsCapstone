@@ -1,0 +1,90 @@
+/* TodoList.css */
+
+.todo-list-container {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.todo-list-container h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.todo-list-container input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.todo-list-container button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list-container select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.todo-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list-container li .checkbox {
+  margin-right: 10px;
+}
+
+.todo-list-container li .task-text {
+  flex-grow: 1;
+}
+
+.todo-list-container li button {
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-list-container li button:first-child {
+  background-color: #2196f3;
+}
+
+.todo-list-container li button:last-child {
+  background-color: #ffc107;
+}
+
+.todo-list-container li .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list-container li .priority {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+}

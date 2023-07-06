@@ -1,0 +1,9 @@
+    Table: Tasks
+
+* id (Primary Key, Auto-increment): Unique identifier for each task.
+
+* text (String): Description of the task.
+
+* completed (Boolean): Indicates whether the task is completed or not.
+
+* priority (Integer): Represents the priority level of the task.

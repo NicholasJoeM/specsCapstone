@@ -1,0 +1,94 @@
+/* NotTodoList.css */
+
+.not-todo-list-container {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.not-todo-list-container h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.not-todo-list-container input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.not-todo-list-container button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.not-todo-list-container button.add-task {
+  background-color: #4caf50;
+}
+
+.not-todo-list-container select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  height: 35px;
+  width: 100px;
+}
+
+.not-todo-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.not-todo-list-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.not-todo-list-container li .checkbox {
+  margin-right: 10px;
+}
+
+.not-todo-list-container li .task-text {
+  flex-grow: 1;
+}
+
+.not-todo-list-container li button {
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.not-todo-list-container li button:first-child {
+  background-color: #2196f3;
+}
+
+.not-todo-list-container li button:last-child {
+  background-color: #ffc107;
+}
+
+.not-todo-list-container li .completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.not-todo-list-container li .priority {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+}
